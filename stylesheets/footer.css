@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-bottom: 0px;
+}
+
+.logo-footer {
+    width: 15%;
+    padding-left: 0%;
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-bottom: 0px;
+}
+
+h3, h4{
+    color: white;
+}
+
+.contacto {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.contactanospa {
+    color: white !important;
+}
+
+.footer {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    bottom: 0 !important;
+    font-size: medium !important;
+}
+
+.facebook, .instagram{
+    width: 30px;
+    height: 30px;
+}
+
+.seguinos, .contacto {
+    display: inline-block;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.seguinos {
+    text-align: center;
+    border-left: 1px solid grey;
+    align-items: center;
+}
+.contacto {
+    border-right: 0px;
+    border-right-color: transparent;
+    text-align: center;
+    align-items: center;
+}
+
+.mail {
+    margin-bottom: 3%;
+}
+
+@media screen and (max-width: 500px) {
+    .footer {
+        display: inline;
+    }
+    .contacto, .seguinos {
+        width: 100%;
+        text-align: center;
+        border-left: none;
+    }
+    .contacto {
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        border-bottom: solid 1px gray;
+    }
+
+}
