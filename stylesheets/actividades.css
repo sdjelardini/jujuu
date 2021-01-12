@@ -67,11 +67,9 @@ header {
 }
 
 @media screen and (max-width:500px) {
-    .containerActividades {
-        padding-top: 110%;
-    }
     .actividades{
         display: inline;
+        width: 80%;
     }
     .recuadro {
         padding-left: 10%;
