@@ -69,9 +69,17 @@ h1{
     text-align: center;
 }
 
-@media screen and (max-width: 500px) {
-    .containerAsociarse {
-        padding-top: 110%;
+@media screen and (max-device-width: 500px) {
+    .containerAsociarse{
+        display: block;
+        margin: auto;
+    }
+    .asociate{
+        margin-left: 3%;
+        margin-bottom: 5%;
+    }
+    .datos{
+        width: 100%;
     }
     #submit {
         margin-left: 18%;

@@ -75,13 +75,13 @@ span {
 }
 
 @media screen and (max-device-width: 500px){
-    body{
-        width: 100%;
-    }
     .horarios {
         padding-top: 0;
         padding-left: 0;
         margin-left: 5%;
         margin-top: 2%;
+    }
+    .horario{
+        float: initial;
     }
 }
