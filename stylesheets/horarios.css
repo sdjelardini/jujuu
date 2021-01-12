@@ -78,10 +78,10 @@ span {
     .horarios {
         padding-top: 0;
         padding-left: 0;
-        margin-left: 5%;
+        margin-left: 10%;
         margin-top: 2%;
     }
-    .horario{
-        float: initial;
+    .egt{
+        margin-bottom: 5%;
     }
 }
