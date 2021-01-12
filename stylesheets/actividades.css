@@ -70,7 +70,6 @@ header {
     .actividades{
         display: flex;
         flex-direction: row;
-        width: 100%;
     }
     .actividades a{
         width: 100%;
