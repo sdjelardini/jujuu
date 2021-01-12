@@ -66,17 +66,23 @@ p {
     padding: 5px 20px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-device-width: 500px) {
     .body {
         width: 100%;
-    }
-    main{
-        padding-top: 100%;
     }
     .descripcion{
         text-align: center;
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .cover{
+        max-height: 700px;
+    }
+    .portada{
+        background-position-y: bottom 10%;
+    }
+    footer{
+        margin-bottom: 10% !important;
     }
 }
 

@@ -2,8 +2,7 @@
 <html>
   <head>
     <title>Olympus Life Center</title>
-    <link rel='stylesheet' href='../stylesheets/horarios.css'>
-
+    <link rel='stylesheet' href='../stylesheets/olympusEnCasa.css'>
     <link rel='stylesheet' href='../stylesheets/header.css'>
     <link rel='stylesheet' href='../stylesheets/footer.css'>
     
@@ -175,8 +174,32 @@
         <p>Zumba se dicta por Zoom: pedir contraseña por instagram!</p>
         <p>Fitness de Combate y X-55 se dictan en el instagram de la profesora! Buscar en <a href="https://www.instagram.com/olympuslifecenter/">@olympuslifecenter</a>!</p>
     </div>
-    <%- include('./partials/footer.ejs')  %> 
 </div>
+<footer>
+    <div class="footer">  
+        <div class="contacto">
+            <h3>CONTACTO</h3>
+            <h4>Olympus Life Center</h4>
+            <p class="contactanospa">Contactanos, estamos para ayudarte.</p>
+            <a class="mail" href = "mailto: olympuslifecenter@hotmail.com">olympuslifecenter@hotmail.com</a>
+            <br>
+            <a href="https://api.whatsapp.com/send?phone=5491128692121">Tel: 11 2869 2121 Sólo Whatsapp</a> <br>
+        
+        </div>
+        <div class="seguinos" >
+            <img src="../images/logo-olympus.png" alt="" style="margin-top: 10px;" class="logo-footer">
+            <h3>Seguinos</h3>
+            <a href="https://www.facebook.com/olympuslifecenter">
+                <img src="../images/facebook.png" style="width: 30px; height: 30px;">
+            </a>
+            <a href="https://www.instagram.com/olympuslifecenter/">
+                <img src="../images/instagram1.png" style="width: 30px; height: 30px;">
+            </a>
+        </div>
+    </div>
+</footer>
+
+
   </body>
   <style>
       .comentarios, .atencion{
@@ -187,15 +210,5 @@
           margin-right: 3%;
       }
 
-    @media screen and (max-width: 500px) {
-        .be {
-            padding-top: 112%;
-            margin-left: 6%;
-            margin-right: 3%;
-        }
-        .horarios {
-            padding-left: 0%;
-        }
-    }
   </style>
 </html>

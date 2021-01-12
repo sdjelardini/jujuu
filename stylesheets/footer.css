@@ -63,14 +63,23 @@ h3, h4{
     margin-bottom: 3%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-device-width: 500px) {
     .footer {
         display: inline;
+        /* width: 100%; */
+    }
+    footer{
+        margin-top: 10% !important;
+        width: 80%;
+        margin: auto;
     }
     .contacto, .seguinos {
         width: 100%;
         text-align: center;
         border-left: none;
+        margin: auto;
+        font-size: large;
+        justify-content: center;
     }
     .contacto {
         margin-bottom: 5px;

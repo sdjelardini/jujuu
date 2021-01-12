@@ -66,12 +66,10 @@ header {
     width: 100%;
 }
 
-@media screen and (max-width:500px) {
-    .containerActividades {
-        padding-top: 110%;
-    }
+@media screen and (max-device-width:500px) {
     .actividades{
         display: inline;
+        width: 80%;
     }
     .recuadro {
         padding-left: 10%;
@@ -81,6 +79,9 @@ header {
         text-align: center;
         z-index: 999;
         padding-right: 15%;
+    }
+    footer{
+        margin-top: 5% !important;
     }
 }
   
