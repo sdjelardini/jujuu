@@ -27,11 +27,20 @@ summary {
     outline: none;
     margin-bottom: 20px;
     font-size: xx-large;
+    list-style-image: url('../images/iconmonstr-arrow-right-thin.svg');
 }
 
 ul li {
     color: white;
+}
+
+.no-arrow{
     list-style: none;
+}
+
+li {
+    list-style-image: url('../images/white-arrow.png');
+    list-style-position: 10%;
 }
 
 header {
