@@ -17,13 +17,15 @@
     border-bottom: 0%;
     padding-right: 0px;
     padding-left: 3%;
+    padding: 10px;
+    z-index: 10;
 }
 
 .barra {
     display: flex;
     float: right;
     justify-content: space-between;
-    padding-top: 30px;
+    width: 70%;
 }
 
 a {
@@ -37,13 +39,16 @@ a:hover {
 }
 
 .navbar {
-    min-height: 50px;
+    /* min-height: 50px;
     margin-bottom: 20px;
     width: 70%;
-    margin-right: 5%;
-    font-size: 20px;
+    /* margin-right: 5%; */
+    /* font-size: 20px;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */ 
+    justify-content: space-between;
+    margin: auto;
+    height: auto !important;
 }
 
 .logo-olympus {
@@ -76,12 +81,13 @@ a:hover {
         display: flex;
         margin: auto;
         padding-bottom: 15px;
-        padding-right: 7%;
+        /* padding-right: 7%; */
+        padding-top: 30px;
     }
     .navbar {
         margin-bottom: 2%;
         width: 100%;
-        padding: 2px 1px 0;
+        /* padding: 2px 1px 0; */
     }
     .logo-olympus {
         margin-top: 3% !important;
