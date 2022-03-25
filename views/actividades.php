@@ -50,7 +50,7 @@
                     INDOOR CYCLE
                   </div>
                 </div>
-            </a>
+            </a> 
             <a href="../actividades/yoga.html">
                 <div class="recuadro">
                   <img src="../images/actividades/yoga.jpeg" class="imagenActividades" alt="">
